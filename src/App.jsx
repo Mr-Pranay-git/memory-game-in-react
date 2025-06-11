@@ -3,7 +3,7 @@ import MemoryGame from './Components/MemoryGame'
 
 const App = () => {
   return (
-    <div>    
+    <div className='bg-gray-500'>    
       <MemoryGame></MemoryGame>
     </div>
   )

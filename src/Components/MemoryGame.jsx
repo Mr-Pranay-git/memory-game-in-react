@@ -120,7 +120,7 @@ const MemoryGame = () => {
       {/* Reset / Play again Btn */}
         <button
         onClick={initializeGame}
-         className='px-4 py-2 bg-green-600 font-bold text-white rounded  hover:bg-green-700 border-none'>
+         className='px-4 py-2 bg-green-700 font-bold text-white rounded  hover:bg-green-800 border-none'>
           {won ? 'Play Again':'Reset'}
         </button>
       
